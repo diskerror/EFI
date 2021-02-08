@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>BuildMachineOSBuild</key>
+	<string>11A511</string>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleExecutable</key>
+	<string>AppleRTL8169Ethernet</string>
+	<key>CFBundleGetInfoString</key>
+	<string>2.0.6, This product is covered by one or more of the following patents:
+	US5,307,459, US5,434,872, US5,732,094, US6,570,884, US6,115,776, and US6,327,625
+	Copyright Realtek semiconductor, Inc. 2004-2008</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.apple.driver.AppleRTL8169Ethernet</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>Realtek PCI/PCI-E Ethernet Driver</string>
+	<key>CFBundlePackageType</key>
+	<string>KEXT</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0.3</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>1.1.4a5</string>
+	<key>DTCompiler</key>
+	<string></string>
+	<key>DTPlatformBuild</key>
+	<string>4B110</string>
+	<key>DTPlatformVersion</key>
+	<string>GM</string>
+	<key>DTSDKBuild</key>
+	<string>11A511</string>
+	<key>DTSDKName</key>
+	<string></string>
+	<key>DTXcode</key>
+	<string>0410</string>
+	<key>DTXcodeBuild</key>
+	<string>4B110</string>
+	<key>IOKitPersonalities</key>
+	<dict>
+		<key>RTL8101E</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.apple.driver.AppleRTL8169Ethernet</string>
+			<key>Driver Parameters</key>
+			<dict>
+				<key>Checksum Offload</key>
+				<false/>
+				<key>EEE</key>
+				<true/>
+			</dict>
+			<key>IOClass</key>
+			<string>AppleRTL8169Ethernet</string>
+			<key>IOPCIClassMatch</key>
+			<string>0x02000000&amp;0xffff0000</string>
+			<key>IOPCIPrimaryMatch</key>
+			<string>0x813610ec</string>
+			<key>IOProviderClass</key>
+			<string>IOPCIDevice</string>
+			<key>IOUserClientClass</key>
+			<string>RTLNICClient</string>
+		</dict>
+		<key>RTL8131E</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.apple.driver.AppleRTL8169Ethernet</string>
+			<key>Driver Parameters</key>
+			<dict>
+				<key>Checksum Offload</key>
+				<false/>
+			</dict>
+			<key>IOClass</key>
+			<string>AppleRTL8169Ethernet</string>
+			<key>IOPCIClassMatch</key>
+			<string>0x02000000&amp;0xffff0000</string>
+			<key>IOPCIPrimaryMatch</key>
+			<string>0x813110ec</string>
+			<key>IOProviderClass</key>
+			<string>IOPCIDevice</string>
+			<key>IOUserClientClass</key>
+			<string>RTLNICClient</string>
+		</dict>
+		<key>RTL8168</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.apple.driver.AppleRTL8169Ethernet</string>
+			<key>Driver Parameters</key>
+			<dict>
+				<key>Checksum Offload</key>
+				<true/>
+				<key>EEE</key>
+				<false/>
+			</dict>
+			<key>IOClass</key>
+			<string>AppleRTL8169Ethernet</string>
+			<key>IOPCIClassMatch</key>
+			<string>0x02000000&amp;0xffff0000</string>
+			<key>IOPCIPrimaryMatch</key>
+			<string>0x816810ec</string>
+			<key>IOProviderClass</key>
+			<string>IOPCIDevice</string>
+			<key>IOUserClientClass</key>
+			<string>RTLNICClient</string>
+			<key>OSBundleAllowUserLoad</key>
+			<string>true</string>
+			<key>mDNS_KEY</key>
+			<string>2009-07-30</string>
+		</dict>
+		<key>RTL8169/RTL8110</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.apple.driver.AppleRTL8169Ethernet</string>
+			<key>Driver Parameters</key>
+			<dict>
+				<key>Checksum Offload</key>
+				<false/>
+			</dict>
+			<key>IOClass</key>
+			<string>AppleRTL8169Ethernet</string>
+			<key>IOPCIClassMatch</key>
+			<string>0x02000000&amp;0xffff0000</string>
+			<key>IOPCIPrimaryMatch</key>
+			<string>0x816910ec 0x816710ec</string>
+			<key>IOProviderClass</key>
+			<string>IOPCIDevice</string>
+		</dict>
+	</dict>
+	<key>OSBundleLibraries</key>
+	<dict>
+		<key>com.apple.iokit.IONetworkingFamily</key>
+		<string>1.4.3</string>
+		<key>com.apple.iokit.IOPCIFamily</key>
+		<string>1.6</string>
+		<key>com.apple.kpi.bsd</key>
+		<string>8.0.0b2</string>
+		<key>com.apple.kpi.iokit</key>
+		<string>8.0.0b2</string>
+		<key>com.apple.kpi.libkern</key>
+		<string>8.0.0b2</string>
+		<key>com.apple.kpi.mach</key>
+		<string>8.0.0b2</string>
+	</dict>
+	<key>OSBundleRequired</key>
+	<string>Network-Root</string>
+</dict>
+</plist>

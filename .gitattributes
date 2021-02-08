@@ -1,0 +1,9 @@
+*.efi binary
+*.aml binary
+*.kext binary
+*.l2x binary
+*.lbl binary
+*.icns binary
+*.bin binary
+*.png binary
+*.mp3 binary
