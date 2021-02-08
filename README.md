@@ -19,4 +19,4 @@ Software | Version
 Everything works with Big Sur 11.2, including Adobe Lightroom Classic. Nothing is over-clocked. The system does *not* recognize the Apple Watch for unlocking.
 
 # License
-This project is a combination of others' licenses. See those projects for licensing.
+This project is a combination of others' projects. See those projects for licensing.
