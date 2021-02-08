@@ -1,8 +1,8 @@
 # EFI
 EFI for Hackintosh on MSI MEG Z490I UNIFY
 * i7-107000K 8-Core 3.8 GHz
-* Kingston 9905734-081.A00G 16GB x2
-* Samsung 970 1TB
+* Kingston DDR4 2933MHz 16GB x2
+* Samsung SSD 970 EVO Plus 1TB
 * Radeon RX 580 8GB
 
 Software | Version
@@ -15,7 +15,7 @@ Software | Version
 [WhateverGreen](https://github.com/acidanthera/WhateverGreen) | 1.4.7
 
 # Results
-Everything works, including Adobe Lightroom Classic. The system does *not* recognize the Apple Watch for unlocking.
+Everything works, including Adobe Lightroom Classic. Nothing is over-clocked. The system does *not* recognize the Apple Watch for unlocking.
 
 # License
 This project is a combination of others' licenses. See those projects for licensing.
