@@ -15,3 +15,6 @@ Software | Version
 
 # Results
 Everything works, except the system doesn't recognize the Apple Watch for unlocking.
+
+# License
+This project is a combination of others' licenses. See those projects for licensing.
