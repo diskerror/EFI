@@ -11,12 +11,12 @@ Software | Version
 [OcBinaryData](https://github.com/acidanthera/OcBinaryData) | 
 [AppleALC](https://github.com/acidanthera/AppleALC) | 1.5.7
 [Lilu](https://github.com/acidanthera/Lilu) | 1.5.1
-[LucyRTL8125Ethernet](https://www.insanelymac.com/forum/topic/343542-lucyrtl8125ethernetkext-for-realtek-rtl8125) | 1.0.0d3
+[LucyRTL8125Ethernet](https://www.insanelymac.com/forum/topic/343542-lucyrtl8125ethernetkext-for-realtek-rtl8125) | 1.0.0d4
 [VirtualSMC](https://github.com/acidanthera/VirtualSMC) | 1.2.0
 [WhateverGreen](https://github.com/acidanthera/WhateverGreen) | 1.4.7
 
 # Results
-Everything works, including Adobe Lightroom Classic. Nothing is over-clocked. The system does *not* recognize the Apple Watch for unlocking.
+Everything works with Big Sur 11.2, including Adobe Lightroom Classic. Nothing is over-clocked. The system does *not* recognize the Apple Watch for unlocking.
 
 # License
 This project is a combination of others' licenses. See those projects for licensing.
