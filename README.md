@@ -8,10 +8,10 @@ EFI for Hackintosh on MSI MEG Z490I UNIFY
 Software | Version
 -------- | -------
 [OpenCore](https://github.com/acidanthera/OpenCorePkg) | 0.6.6
-[OcBinaryData](https://github.com/acidanthera/OcBinaryData) | 
+[OcBinaryData](https://github.com/acidanthera/OcBinaryData) |
 [AppleALC](https://github.com/acidanthera/AppleALC) | 1.5.7
 [Lilu](https://github.com/acidanthera/Lilu) | 1.5.1
-[LucyRTL8125Ethernet](https://www.insanelymac.com/forum/topic/343542-lucyrtl8125ethernetkext-for-realtek-rtl8125) | 1.0.0d4
+[LucyRTL8125Ethernet](https://www.insanelymac.com/forum/topic/343542-lucyrtl8125ethernetkext-for-realtek-rtl8125) | 1.0.0
 [VirtualSMC](https://github.com/acidanthera/VirtualSMC) | 1.2.0
 [WhateverGreen](https://github.com/acidanthera/WhateverGreen) | 1.4.7
 
