@@ -14,15 +14,15 @@
 # Software
 Software | Version
 -------- | -------
-[OpenCore](https://github.com/acidanthera/OpenCorePkg) | 0.7.0
+[OpenCore](https://github.com/acidanthera/OpenCorePkg) | 0.7.1
 [OcBinaryData](https://github.com/acidanthera/OcBinaryData) |
-[AppleALC](https://github.com/acidanthera/AppleALC) | 1.6.1
+[AppleALC](https://github.com/acidanthera/AppleALC) | 1.6.2
 [IntelBluetoothFirmware](https://github.com/OpenIntelWireless/IntelBluetoothFirmware) | 1.1.3
-[Lilu](https://github.com/acidanthera/Lilu) | 1.5.3
+[Lilu](https://github.com/acidanthera/Lilu) | 1.5.4
 [LucyRTL8125Ethernet](https://www.insanelymac.com/forum/topic/343542-lucyrtl8125ethernetkext-for-realtek-rtl8125) | 1.1.0
 [USBInjectAll](https://github.com/Sniki/OS-X-USB-Inject-All) | 0.7.6
-[VirtualSMC](https://github.com/acidanthera/VirtualSMC) | 1.2.4
-[WhateverGreen](https://github.com/acidanthera/WhateverGreen) | 1.5.0
+[VirtualSMC](https://github.com/acidanthera/VirtualSMC) | 1.2.5
+[WhateverGreen](https://github.com/acidanthera/WhateverGreen) | 1.5.1
 
 * VirtualSMC includes:
   * SMCLightSensor.kext
