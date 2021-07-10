@@ -31,7 +31,7 @@ Software | Version
   * VirtualSMC.kext
 
 # Results
-Everything works with Big Sur 11.2.3, including Adobe Lightroom Classic, though boot time is very long. Bluetooth is not fully tested. Nothing is over-clocked. The system does *not* recognize the Apple Watch for unlocking.
+Everything works with Big Sur 11.2.3, including Adobe Lightroom Classic. Bluetooth is not fully tested. Nothing is over-clocked. The system does *not* recognize the Apple Watch for unlocking.
 
 # License
 This project is a combination of others' licenses. See those projects for licensing.
