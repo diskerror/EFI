@@ -19,7 +19,7 @@ Software | Version
 [AppleALC](https://github.com/acidanthera/AppleALC) | 1.6.3
 [IntelBluetoothFirmware](https://github.com/OpenIntelWireless/IntelBluetoothFirmware) | 1.1.3
 [Lilu](https://github.com/acidanthera/Lilu) | 1.5.5
-[LucyRTL8125Ethernet](https://www.insanelymac.com/forum/topic/343542-lucyrtl8125ethernetkext-for-realtek-rtl8125) | 1.1.0
+[LucyRTL8125Ethernet](https://github.com/Mieze/LucyRTL8125Ethernet) | 1.1.0
 [USBInjectAll](https://github.com/Sniki/OS-X-USB-Inject-All) | 0.7.6
 [VirtualSMC](https://github.com/acidanthera/VirtualSMC) | 1.2.6
 [WhateverGreen](https://github.com/acidanthera/WhateverGreen) | 1.5.2
