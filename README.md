@@ -14,15 +14,21 @@
 # Software
 Software | Version
 -------- | -------
-[OpenCore](https://github.com/acidanthera/OpenCorePkg) | 0.7.2
+[OpenCore](https://github.com/acidanthera/OpenCorePkg) | 0.7.3
 [OcBinaryData](https://github.com/acidanthera/OcBinaryData) |
-[AppleALC](https://github.com/acidanthera/AppleALC) | 1.6.3
-[IntelBluetoothFirmware](https://github.com/OpenIntelWireless/IntelBluetoothFirmware) | 1.1.3
-[Lilu](https://github.com/acidanthera/Lilu) | 1.5.5
+AirportBrcmFixup | 2.1.3
+AirportItlwm | 2.1.0-alpha
+[AppleALC](https://github.com/acidanthera/AppleALC) | 1.6.4
+CPUFriend | 1.2.4
+HibernationFixup | 1.4.3
+[IntelBluetoothFirmware](https://github.com/OpenIntelWireless/IntelBluetoothFirmware) | 2.0.1
+itlwm | 2.1.0-alpha
+[Lilu](https://github.com/acidanthera/Lilu) | 1.5.6
 [LucyRTL8125Ethernet](https://github.com/Mieze/LucyRTL8125Ethernet) | 1.1.0
+NVMeFix | 1.0.9
 [USBInjectAll](https://github.com/Sniki/OS-X-USB-Inject-All) | 0.7.6
-[VirtualSMC](https://github.com/acidanthera/VirtualSMC) | 1.2.6
-[WhateverGreen](https://github.com/acidanthera/WhateverGreen) | 1.5.2
+[VirtualSMC](https://github.com/acidanthera/VirtualSMC) | 1.2.7
+[WhateverGreen](https://github.com/acidanthera/WhateverGreen) | 1.5.3
 
 * VirtualSMC includes:
   * SMCLightSensor.kext
@@ -31,7 +37,7 @@ Software | Version
   * VirtualSMC.kext
 
 # Results
-Everything works with Big Sur 11.2.3, including Adobe Lightroom Classic. Bluetooth is not fully tested. Nothing is over-clocked. The system does *not* recognize the Apple Watch for unlocking.
+Everything works with Big Sur 11.2.3, including Adobe Lightroom Classic. Bluetooth is not fully tested. Nothing is over-clocked. The system does *not* recognize the Apple Watch for unlocking. 
 
 # License
 This project is a combination of others' licenses. See those projects for licensing.
