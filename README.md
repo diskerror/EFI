@@ -26,7 +26,6 @@ itlwm | 2.1.0-alpha
 [Lilu](https://github.com/acidanthera/Lilu) | 1.5.6
 [LucyRTL8125Ethernet](https://github.com/Mieze/LucyRTL8125Ethernet) | 1.1.0
 NVMeFix | 1.0.9
-[USBInjectAll](https://github.com/Sniki/OS-X-USB-Inject-All) | 0.7.6
 [VirtualSMC](https://github.com/acidanthera/VirtualSMC) | 1.2.7
 [WhateverGreen](https://github.com/acidanthera/WhateverGreen) | 1.5.3
 
@@ -37,7 +36,7 @@ NVMeFix | 1.0.9
   * VirtualSMC.kext
 
 # Results
-Everything works with Big Sur 11.6 with USB ports mapped. Bluetooth is not fully tested. Nothing is over-clocked. The system does *not* recognize the Apple Watch for unlocking. 
+Everything works with Big Sur 11.6 with USB ports mapped. Bluetooth is not fully tested. Nothing is over-clocked. The system does *not* recognize the Apple Watch for unlocking.
 
 # License
 This project is a combination of others' licenses. See those projects for licensing.
