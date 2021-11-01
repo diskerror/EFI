@@ -14,11 +14,11 @@
 # Software
 Software | Version
 -------- | -------
-[OpenCore](https://github.com/acidanthera/OpenCorePkg) | 0.7.3
+[OpenCore](https://github.com/acidanthera/OpenCorePkg) | 0.7.4
 [OcBinaryData](https://github.com/acidanthera/OcBinaryData) |
 AirportBrcmFixup | 2.1.3
 AirportItlwm | 2.1.0-alpha
-[AppleALC](https://github.com/acidanthera/AppleALC) | 1.6.4
+[AppleALC](https://github.com/acidanthera/AppleALC) | 1.6.5
 CPUFriend | 1.2.4
 HibernationFixup | 1.4.3
 [IntelBluetoothFirmware](https://github.com/OpenIntelWireless/IntelBluetoothFirmware) | 2.0.1
@@ -27,7 +27,7 @@ itlwm | 2.1.0-alpha
 [LucyRTL8125Ethernet](https://github.com/Mieze/LucyRTL8125Ethernet) | 1.1.0
 NVMeFix | 1.0.9
 [VirtualSMC](https://github.com/acidanthera/VirtualSMC) | 1.2.7
-[WhateverGreen](https://github.com/acidanthera/WhateverGreen) | 1.5.3
+[WhateverGreen](https://github.com/acidanthera/WhateverGreen) | 1.5.4
 
 * VirtualSMC includes:
   * SMCLightSensor.kext
