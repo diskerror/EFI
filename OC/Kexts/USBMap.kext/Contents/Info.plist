@@ -51,7 +51,7 @@
 					<key>HS01</key>
 					<dict>
 						<key>Comment</key>
-						<string>port 3.1</string>
+						<string>rear 3.1</string>
 						<key>UsbConnector</key>
 						<integer>3</integer>
 						<key>port</key>
@@ -104,7 +104,7 @@
 					<key>HS06</key>
 					<dict>
 						<key>Comment</key>
-						<string>front</string>
+						<string>front upper</string>
 						<key>UsbConnector</key>
 						<integer>3</integer>
 						<key>port</key>

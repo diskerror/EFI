@@ -32,27 +32,11 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string></string>
-				<key>Enabled</key>
-				<true/>
-				<key>Path</key>
-				<string>SSDT-ALS0.aml</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
 				<string>SSDT-RHUB.aml</string>
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
 				<string>SSDT-RHUB.aml</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string></string>
-				<key>Enabled</key>
-				<true/>
-				<key>Path</key>
-				<string>SSDT-XOSI.aml</string>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -263,6 +247,8 @@
 			<integer>0</integer>
 			<key>RebuildAppleMemoryMap</key>
 			<true/>
+			<key>ResizeAppleGpuBars</key>
+			<integer>-1</integer>
 			<key>SetupVirtualMap</key>
 			<false/>
 			<key>SignalAppleOS</key>
@@ -585,7 +571,25 @@
 				<key>Arch</key>
 				<string>x86_64</string>
 				<key>BundlePath</key>
-				<string>USBMap.kext</string>
+				<string>VirtualSMC.kext</string>
+				<key>Comment</key>
+				<string></string>
+				<key>Enabled</key>
+				<true/>
+				<key>ExecutablePath</key>
+				<string>Contents/MacOS/VirtualSMC</string>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>MinKernel</key>
+				<string></string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+			</dict>
+			<dict>
+				<key>Arch</key>
+				<string>x86_64</string>
+				<key>BundlePath</key>
+				<string>BrcmBluetoothInjector.kext</string>
 				<key>Comment</key>
 				<string></string>
 				<key>Enabled</key>
@@ -603,13 +607,49 @@
 				<key>Arch</key>
 				<string>x86_64</string>
 				<key>BundlePath</key>
-				<string>VirtualSMC.kext</string>
+				<string>BrcmFirmwareData.kext</string>
 				<key>Comment</key>
 				<string></string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
-				<string>Contents/MacOS/VirtualSMC</string>
+				<string>Contents/MacOS/BrcmFirmwareData</string>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>MinKernel</key>
+				<string></string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+			</dict>
+			<dict>
+				<key>Arch</key>
+				<string>x86_64</string>
+				<key>BundlePath</key>
+				<string>BrcmPatchRAM3.kext</string>
+				<key>Comment</key>
+				<string></string>
+				<key>Enabled</key>
+				<true/>
+				<key>ExecutablePath</key>
+				<string>Contents/MacOS/BrcmPatchRAM3</string>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>MinKernel</key>
+				<string></string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+			</dict>
+			<dict>
+				<key>Arch</key>
+				<string>x86_64</string>
+				<key>BundlePath</key>
+				<string>USBMap.kext</string>
+				<key>Comment</key>
+				<string></string>
+				<key>Enabled</key>
+				<true/>
+				<key>ExecutablePath</key>
+				<string></string>
 				<key>MaxKernel</key>
 				<string></string>
 				<key>MinKernel</key>
@@ -664,24 +704,6 @@
 				<true/>
 				<key>ExecutablePath</key>
 				<string></string>
-				<key>MaxKernel</key>
-				<string></string>
-				<key>MinKernel</key>
-				<string></string>
-				<key>PlistPath</key>
-				<string>Contents/Info.plist</string>
-			</dict>
-			<dict>
-				<key>Arch</key>
-				<string>x86_64</string>
-				<key>BundlePath</key>
-				<string>AirportItlwm.kext</string>
-				<key>Comment</key>
-				<string></string>
-				<key>Enabled</key>
-				<true/>
-				<key>ExecutablePath</key>
-				<string>Contents/MacOS/AirportItlwm</string>
 				<key>MaxKernel</key>
 				<string></string>
 				<key>MinKernel</key>
@@ -765,24 +787,6 @@
 				<key>Arch</key>
 				<string>x86_64</string>
 				<key>BundlePath</key>
-				<string>SMCSuperIO.kext</string>
-				<key>Comment</key>
-				<string></string>
-				<key>Enabled</key>
-				<true/>
-				<key>ExecutablePath</key>
-				<string>Contents/MacOS/SMCSuperIO</string>
-				<key>MaxKernel</key>
-				<string></string>
-				<key>MinKernel</key>
-				<string></string>
-				<key>PlistPath</key>
-				<string>Contents/Info.plist</string>
-			</dict>
-			<dict>
-				<key>Arch</key>
-				<string>x86_64</string>
-				<key>BundlePath</key>
 				<string>WhateverGreen.kext</string>
 				<key>Comment</key>
 				<string></string>
@@ -790,24 +794,6 @@
 				<true/>
 				<key>ExecutablePath</key>
 				<string>Contents/MacOS/WhateverGreen</string>
-				<key>MaxKernel</key>
-				<string></string>
-				<key>MinKernel</key>
-				<string></string>
-				<key>PlistPath</key>
-				<string>Contents/Info.plist</string>
-			</dict>
-			<dict>
-				<key>Arch</key>
-				<string>x86_64</string>
-				<key>BundlePath</key>
-				<string>AppleRTL8169Ethernet.kext</string>
-				<key>Comment</key>
-				<string></string>
-				<key>Enabled</key>
-				<true/>
-				<key>ExecutablePath</key>
-				<string>Contents/MacOS/AppleRTL8169Ethernet</string>
 				<key>MaxKernel</key>
 				<string></string>
 				<key>MinKernel</key>
@@ -873,60 +859,6 @@
 				<key>Arch</key>
 				<string>x86_64</string>
 				<key>BundlePath</key>
-				<string>AirportBrcmFixup.kext</string>
-				<key>Comment</key>
-				<string></string>
-				<key>Enabled</key>
-				<true/>
-				<key>ExecutablePath</key>
-				<string>Contents/MacOS/AirportBrcmFixup</string>
-				<key>MaxKernel</key>
-				<string></string>
-				<key>MinKernel</key>
-				<string></string>
-				<key>PlistPath</key>
-				<string>Contents/Info.plist</string>
-			</dict>
-			<dict>
-				<key>Arch</key>
-				<string>x86_64</string>
-				<key>BundlePath</key>
-				<string>AirportBrcmFixup.kext/Contents/PlugIns/AirPortBrcmNIC_Injector.kext</string>
-				<key>Comment</key>
-				<string></string>
-				<key>Enabled</key>
-				<true/>
-				<key>ExecutablePath</key>
-				<string></string>
-				<key>MaxKernel</key>
-				<string></string>
-				<key>MinKernel</key>
-				<string></string>
-				<key>PlistPath</key>
-				<string>Contents/Info.plist</string>
-			</dict>
-			<dict>
-				<key>Arch</key>
-				<string>x86_64</string>
-				<key>BundlePath</key>
-				<string>AirportBrcmFixup.kext/Contents/PlugIns/AirPortBrcm4360_Injector.kext</string>
-				<key>Comment</key>
-				<string></string>
-				<key>Enabled</key>
-				<true/>
-				<key>ExecutablePath</key>
-				<string></string>
-				<key>MaxKernel</key>
-				<string></string>
-				<key>MinKernel</key>
-				<string></string>
-				<key>PlistPath</key>
-				<string>Contents/Info.plist</string>
-			</dict>
-			<dict>
-				<key>Arch</key>
-				<string>x86_64</string>
-				<key>BundlePath</key>
 				<string>SidecarFixup.kext</string>
 				<key>Comment</key>
 				<string></string>
@@ -945,42 +877,6 @@
 				<key>Arch</key>
 				<string>x86_64</string>
 				<key>BundlePath</key>
-				<string>BrightnessKeys.kext</string>
-				<key>Comment</key>
-				<string></string>
-				<key>Enabled</key>
-				<true/>
-				<key>ExecutablePath</key>
-				<string>Contents/MacOS/BrightnessKeys</string>
-				<key>MaxKernel</key>
-				<string></string>
-				<key>MinKernel</key>
-				<string></string>
-				<key>PlistPath</key>
-				<string>Contents/Info.plist</string>
-			</dict>
-			<dict>
-				<key>Arch</key>
-				<string>x86_64</string>
-				<key>BundlePath</key>
-				<string>AtherosE2200Ethernet.kext</string>
-				<key>Comment</key>
-				<string></string>
-				<key>Enabled</key>
-				<true/>
-				<key>ExecutablePath</key>
-				<string>Contents/MacOS/AtherosE2200Ethernet</string>
-				<key>MaxKernel</key>
-				<string></string>
-				<key>MinKernel</key>
-				<string></string>
-				<key>PlistPath</key>
-				<string>Contents/Info.plist</string>
-			</dict>
-			<dict>
-				<key>Arch</key>
-				<string>x86_64</string>
-				<key>BundlePath</key>
 				<string>RTCMemoryFixup.kext</string>
 				<key>Comment</key>
 				<string></string>
@@ -988,6 +884,24 @@
 				<true/>
 				<key>ExecutablePath</key>
 				<string>Contents/MacOS/RTCMemoryFixup</string>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>MinKernel</key>
+				<string></string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+			</dict>
+			<dict>
+				<key>Arch</key>
+				<string>x86_64</string>
+				<key>BundlePath</key>
+				<string>AirportItlwm.kext</string>
+				<key>Comment</key>
+				<string></string>
+				<key>Enabled</key>
+				<true/>
+				<key>ExecutablePath</key>
+				<string>Contents/MacOS/AirportItlwm</string>
 				<key>MaxKernel</key>
 				<string></string>
 				<key>MinKernel</key>
@@ -1839,9 +1753,9 @@
 			<key>MaxBIOSVersion</key>
 			<false/>
 			<key>MLB</key>
-			<string>C02018104J9PHCDUE</string>
+			<string>C02040501GU00008C</string>
 			<key>ProcessorType</key>
-			<integer>0</integer>
+			<integer>4105</integer>
 			<key>ROM</key>
 			<data>ESIzRFVm</data>
 			<key>SpoofVendor</key>
@@ -1851,9 +1765,9 @@
 			<key>SystemProductName</key>
 			<string>iMac20,2</string>
 			<key>SystemSerialNumber</key>
-			<string>C02CN08SPN5T</string>
+			<string>C02DHPZX046M</string>
 			<key>SystemUUID</key>
-			<string>5B9CCE35-692E-4C4A-AC23-B338C93F3A27</string>
+			<string>9402A618-DF4B-4460-B6DD-172E01F72851</string>
 		</dict>
 		<key>UpdateDataHub</key>
 		<true/>
@@ -2063,7 +1977,7 @@
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
-				<string>VBoxHfs.efi</string>
+				<string>XhciDxe.efi</string>
 			</dict>
 			<dict>
 				<key>Arguments</key>
@@ -2073,7 +1987,7 @@
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
-				<string>XhciDxe.efi</string>
+				<string>ext4_x64.efi</string>
 			</dict>
 		</array>
 		<key>Input</key>
@@ -2111,6 +2025,8 @@
 			<false/>
 			<key>ProvideConsoleGop</key>
 			<true/>
+			<key>ReconnectGraphicsOnConnect</key>
+			<false/>
 			<key>ReconnectOnResChange</key>
 			<false/>
 			<key>ReplaceTabWithSpace</key>
@@ -2123,6 +2039,8 @@
 			<string>BuiltinGraphics</string>
 			<key>UgaPassThrough</key>
 			<false/>
+			<key>UIScale</key>
+			<integer>-1</integer>
 		</dict>
 		<key>ProtocolOverrides</key>
 		<dict>
@@ -2171,6 +2089,8 @@
 			<false/>
 			<key>EnableVectorAcceleration</key>
 			<false/>
+			<key>EnableVmx</key>
+			<false/>
 			<key>ExitBootServicesDelay</key>
 			<integer>0</integer>
 			<key>ForceOcWriteFlash</key>
@@ -2185,6 +2105,8 @@
 			<false/>
 			<key>RequestBootVarRouting</key>
 			<true/>
+			<key>ResizeGpuBars</key>
+			<integer>-1</integer>
 			<key>TscSyncTimeout</key>
 			<integer>0</integer>
 			<key>UnblockFsConnect</key>
