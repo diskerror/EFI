@@ -16,16 +16,16 @@ Software | Version
 -------- | -------
 [OpenCore](https://github.com/acidanthera/OpenCorePkg) | 0.7.6
 [OcBinaryData](https://github.com/acidanthera/OcBinaryData) |
-AirportBrcmFixup | 2.1.3
+[AirportBrcmFixup](https://github.com/acidanthera/AirportBrcmFixup) | 2.1.3
 AirportItlwm | 2.1.0
 [AppleALC](https://github.com/acidanthera/AppleALC) | 1.6.7
-CPUFriend | 1.2.4
-HibernationFixup | 1.4.5
+[CPUFriend](https://github.com/acidanthera/CPUFriend) | 1.2.4
+[HibernationFixup](https://github.com/acidanthera/HibernationFixup) | 1.4.5
 [IntelBluetoothFirmware](https://github.com/OpenIntelWireless/IntelBluetoothFirmware) | 2.0.1
 itlwm | 2.1.0
 [Lilu](https://github.com/acidanthera/Lilu) | 1.5.8
 [LucyRTL8125Ethernet](https://github.com/Mieze/LucyRTL8125Ethernet) | 1.1.0
-NVMeFix | 1.0.9
+[NVMeFix](https://github.com/acidanthera/NVMeFix) | 1.0.9
 [VirtualSMC](https://github.com/acidanthera/VirtualSMC) | 1.2.8
 [WhateverGreen](https://github.com/acidanthera/WhateverGreen) | 1.5.5
 
