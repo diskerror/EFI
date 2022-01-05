@@ -15,7 +15,7 @@
 Software | Version
 -------- | -------
 [OpenCore](https://github.com/acidanthera/OpenCorePkg) | 0.7.6
-[OcBinaryData](https://github.com/acidanthera/OcBinaryData) |
+[OcBinaryData](https://github.com/acidanthera/OcBinaryData) | 11/21
 [AirportBrcmFixup](https://github.com/acidanthera/AirportBrcmFixup) | 2.1.3
 AirportItlwm | 2.1.0
 [AppleALC](https://github.com/acidanthera/AppleALC) | 1.6.7
