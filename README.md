@@ -9,7 +9,7 @@
 * i7-107000K 8-Core 3.8 GHz
 * Kingston DDR4 2933MHz 16GB x2
 * Western Digital Black SN750 2TB
-* Radeon RX 580 8GB
+* Radeon RX 580 8GB Sapphire Pulse
 
 # Software
 Software | Version
