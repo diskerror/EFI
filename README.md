@@ -4,12 +4,13 @@
   * Intel® JHL7540 Thunderbolt™ 3 Controller
   * Realtek® ALC1220 Audio Codec
   * Realtek® RTL8125B 2.5Gbps LAN controller
-  * Intel® AX201 wireless module
+  * ~~Intel® AX201 wireless module~~ removed
   * NUVOTTON NCT6687 Controller Chip
 * i7-107000K 8-Core 3.8 GHz
 * Kingston DDR4 2933MHz 16GB x2
 * Western Digital Black SN750 2TB
 * Radeon RX 580 8GB Sapphire Pulse
+* BCM95360CDAX WiFi/Bluetooth module
 
 # Software
 Software | Version
@@ -35,7 +36,7 @@ itlwm | 2.2.0-alpha
   * VirtualSMC.kext
 
 # Results
-Works with Monterey 12.4 with USB ports mapped. Bluetooth and Wi-Fi are not working. Nothing is over-clocked. The system does *not* recognize the Apple Watch for unlocking.
+Works with Monterey 12.5 with USB ports mapped. Bluetooth and Wi-Fi are not working. Nothing is over-clocked. The system does *not* recognize the Apple Watch for unlocking.
 
 # License
 This project is a combination of others' licenses. See those projects for licensing.
