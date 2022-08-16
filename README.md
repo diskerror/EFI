@@ -4,7 +4,7 @@
   * Intel® JHL7540 Thunderbolt™ 3 Controller
   * Realtek® ALC1220 Audio Codec
   * Realtek® RTL8125B 2.5Gbps LAN controller
-  * ~~Intel® AX201 wireless module~~ removed
+  * ~~Intel® AX201 wireless module~~ *removed*
   * NUVOTTON NCT6687 Controller Chip
 * i7-107000K 8-Core 3.8 GHz
 * Kingston DDR4 2933MHz 16GB x2
@@ -15,18 +15,18 @@
 # Software
 Software | Version
 -------- | -------
-[OpenCore](https://github.com/acidanthera/OpenCorePkg) | 0.8.1
+[OpenCore](https://github.com/acidanthera/OpenCorePkg) | 0.8.3
 [OcBinaryData](https://github.com/acidanthera/OcBinaryData) | 11/21
-[AppleALC](https://github.com/acidanthera/AppleALC) | 1.7.2
-[CPUFriend](https://github.com/acidanthera/CPUFriend) | 1.2.5
-[FeatureUnlock](https://github.com/acidanthera/FeatureUnlock) | 1.0.8
-[HibernationFixup](https://github.com/acidanthera/HibernationFixup) | 1.4.5
+[AppleALC](https://github.com/acidanthera/AppleALC) | 1.7.4
+[CPUFriend](https://github.com/acidanthera/CPUFriend) | 1.2.6
+[FeatureUnlock](https://github.com/acidanthera/FeatureUnlock) | 1.0.9
+[HibernationFixup](https://github.com/acidanthera/HibernationFixup) | 1.4.6
 [IntelBluetoothFirmware](https://github.com/OpenIntelWireless/IntelBluetoothFirmware) | 2.1.0
-[Lilu](https://github.com/acidanthera/Lilu) | 1.6.0
+[Lilu](https://github.com/acidanthera/Lilu) | 1.6.2
 [LucyRTL8125Ethernet](https://github.com/Mieze/LucyRTL8125Ethernet) | 1.1.0
-[NVMeFix](https://github.com/acidanthera/NVMeFix) | 1.0.9
-[VirtualSMC](https://github.com/acidanthera/VirtualSMC) | 1.2.9
-[WhateverGreen](https://github.com/acidanthera/WhateverGreen) | 1.5.9
+[NVMeFix](https://github.com/acidanthera/NVMeFix) | 1.1.0
+[VirtualSMC](https://github.com/acidanthera/VirtualSMC) | 1.3.0
+[WhateverGreen](https://github.com/acidanthera/WhateverGreen) | 1.6.1
 
 * VirtualSMC includes:
   * SMCProcessor.kext
