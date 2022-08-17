@@ -9,8 +9,8 @@
 * i7-107000K 8-Core 3.8 GHz
 * Kingston DDR4 2933MHz 16GB x2
 * Western Digital Black SN750 2TB
-* Radeon RX 580 8GB Sapphire Pulse
-* BCM95360CDAX WiFi/Bluetooth module
+* Sapphire RX 580 Pulse 8GB
+* BCM95360CDAX WiFi 802.11AC Bluetooth 4.0
 
 # Software
 Software | Version
