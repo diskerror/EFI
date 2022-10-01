@@ -15,13 +15,13 @@
 # Software
 Software | Version
 -------- | -------
-[OpenCore](https://github.com/acidanthera/OpenCorePkg) | 0.8.3
+[OpenCore](https://github.com/acidanthera/OpenCorePkg) | 0.8.4
 [OcBinaryData](https://github.com/acidanthera/OcBinaryData) | 11/21
-[AppleALC](https://github.com/acidanthera/AppleALC) | 1.7.4
+[AppleALC](https://github.com/acidanthera/AppleALC) | 1.7.5
 [CPUFriend](https://github.com/acidanthera/CPUFriend) | 1.2.6
 [FeatureUnlock](https://github.com/acidanthera/FeatureUnlock) | 1.0.9
 [HibernationFixup](https://github.com/acidanthera/HibernationFixup) | 1.4.6
-[IntelBluetoothFirmware](https://github.com/OpenIntelWireless/IntelBluetoothFirmware) | 2.1.0
+[IntelBluetoothFirmware](https://github.com/OpenIntelWireless/IntelBluetoothFirmware) | 2.2.0
 [Lilu](https://github.com/acidanthera/Lilu) | 1.6.2
 [LucyRTL8125Ethernet](https://github.com/Mieze/LucyRTL8125Ethernet) | 1.1.0
 [NVMeFix](https://github.com/acidanthera/NVMeFix) | 1.1.0
