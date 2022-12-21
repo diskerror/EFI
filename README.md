@@ -15,18 +15,18 @@
 # Software
 Software | Version
 -------- | -------
-[OpenCore](https://github.com/acidanthera/OpenCorePkg) | 0.8.4
+[OpenCore](https://github.com/acidanthera/OpenCorePkg) | 0.8.7
 [OcBinaryData](https://github.com/acidanthera/OcBinaryData) | 11/21
-[AppleALC](https://github.com/acidanthera/AppleALC) | 1.7.5
+[AppleALC](https://github.com/acidanthera/AppleALC) | 1.7.7
 [CPUFriend](https://github.com/acidanthera/CPUFriend) | 1.2.6
-[FeatureUnlock](https://github.com/acidanthera/FeatureUnlock) | 1.0.9
-[HibernationFixup](https://github.com/acidanthera/HibernationFixup) | 1.4.6
+[FeatureUnlock](https://github.com/acidanthera/FeatureUnlock) | 1.1.1
+[HibernationFixup](https://github.com/acidanthera/HibernationFixup) | 1.4.7
 [IntelBluetoothFirmware](https://github.com/OpenIntelWireless/IntelBluetoothFirmware) | 2.2.0
 [Lilu](https://github.com/acidanthera/Lilu) | 1.6.2
 [LucyRTL8125Ethernet](https://github.com/Mieze/LucyRTL8125Ethernet) | 1.1.0
 [NVMeFix](https://github.com/acidanthera/NVMeFix) | 1.1.0
 [VirtualSMC](https://github.com/acidanthera/VirtualSMC) | 1.3.0
-[WhateverGreen](https://github.com/acidanthera/WhateverGreen) | 1.6.1
+[WhateverGreen](https://github.com/acidanthera/WhateverGreen) | 1.6.2
 
 * VirtualSMC includes:
   * SMCProcessor.kext
