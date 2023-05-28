@@ -33,7 +33,7 @@ Software | Version
   * VirtualSMC.kext
 
 # Results
-Works with Monterey 13.1.1(a) with USB ports mapped. Bluetooth and Wi-Fi are not working. Nothing is over-clocked. The system does *not* recognize the Apple Watch for unlocking.
+Works with Monterey 13.4 with USB ports mapped. Bluetooth and Wi-Fi are not working. Nothing is over-clocked. The system does *not* recognize the Apple Watch for unlocking.
 
 # License
 This project is a combination of others' licenses. See those projects for licensing.
