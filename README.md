@@ -15,9 +15,9 @@
 # Software
 Software | Version
 -------- | -------
-[OpenCore](https://github.com/acidanthera/OpenCorePkg) | 0.9.5
+[OpenCore](https://github.com/acidanthera/OpenCorePkg) | 0.9.6
 [OcBinaryData](https://github.com/acidanthera/OcBinaryData) | 6/10/23
-[AppleALC](https://github.com/acidanthera/AppleALC) | 1.8.6
+[AppleALC](https://github.com/acidanthera/AppleALC) | 1.8.7
 [BrcmPatchRAM](https://github.com/acidanthera/BrcmPatchRAM) | 2.6.8
 [CPUFriend](https://github.com/acidanthera/CPUFriend) | 1.2.7
 [FeatureUnlock](https://github.com/acidanthera/FeatureUnlock) | 1.1.5
@@ -33,7 +33,7 @@ Software | Version
   * VirtualSMC.kext
 
 # Results
-Works with Monterey 13.5 with USB ports mapped. Bluetooth and Wi-Fi are not working. Nothing is over-clocked. The system does *not* recognize the Apple Watch for unlocking.
+Works with Ventura 13.6 with USB ports mapped. Bluetooth and Wi-Fi are not working. Nothing is over-clocked. The system does *not* recognize the Apple Watch for unlocking.
 
 # License
 This project is a combination of others' licenses. See those projects for licensing.
