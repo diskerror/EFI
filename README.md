@@ -15,9 +15,9 @@
 # Software
 Software | Version
 -------- | -------
-[OpenCore](https://github.com/acidanthera/OpenCorePkg) | 0.9.7
-[OcBinaryData](https://github.com/acidanthera/OcBinaryData) | 6/10/23
-[AppleALC](https://github.com/acidanthera/AppleALC) | 1.8.8
+[OpenCore](https://github.com/acidanthera/OpenCorePkg) | 0.9.8
+[OcBinaryData](https://github.com/acidanthera/OcBinaryData) | 2024-01-27
+[AppleALC](https://github.com/acidanthera/AppleALC) | 1.8.9
 [BrcmPatchRAM](https://github.com/acidanthera/BrcmPatchRAM) | 2.6.8
 [CPUFriend](https://github.com/acidanthera/CPUFriend) | 1.2.7
 [FeatureUnlock](https://github.com/acidanthera/FeatureUnlock) | 1.1.5
