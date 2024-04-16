@@ -15,7 +15,7 @@
 # Software
 Software | Version
 -------- | -------
-[OpenCore](https://github.com/acidanthera/OpenCorePkg) | 0.9.8
+[OpenCore](https://github.com/acidanthera/OpenCorePkg) | 0.9.9
 [OcBinaryData](https://github.com/acidanthera/OcBinaryData) | 2024-01-27
 [AppleALC](https://github.com/acidanthera/AppleALC) | 1.8.9
 [BrcmPatchRAM](https://github.com/acidanthera/BrcmPatchRAM) | 2.6.8
@@ -33,7 +33,7 @@ Software | Version
   * VirtualSMC.kext
 
 # Results
-Works with MacOS 14.3 Sonoma with USB ports mapped. Wi-Fi is not working. Nothing is over-clocked. The system does *not* recognize the Apple Watch for unlocking.
+Works with MacOS 14.3 Sonoma with USB ports mapped. Wi-Fi and Bluetooth are not working. Nothing is over-clocked. The system does *not* recognize the Apple Watch for unlocking.
 
 # License
 This project is a combination of others' licenses. See those projects for licensing.
